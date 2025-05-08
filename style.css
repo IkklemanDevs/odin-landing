@@ -113,10 +113,11 @@ nav a:hover{
 .gallery-text {
   color: #e5e7eb;
   display: flex;  
+  flex-shrink: 0;
   flex-direction: column;
   align-items:flex-start;
   padding-bottom: 40px;
-  min-width: auto;
+  min-width: 300px;
   max-width: 50%;
 } 
 .gallery-text h3,
@@ -207,10 +208,13 @@ justify-content: center;
   background-color: #3882F6;
   color: #F9FAF8;
   display: flex;
+  flex-shrink: 0;
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 40px;
   flex-wrap: wrap;
+  min-width: 300px;
+  
 }
 .register-button {
   display: flex;
