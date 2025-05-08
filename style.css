@@ -92,7 +92,7 @@ nav a:hover{
   display: flex;
   flex-wrap: wrap; 
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 100%;
   padding: 0;
   
@@ -107,7 +107,7 @@ nav a:hover{
 } 
 .gallery img {
   height: 300px;
-  max-width: 600px;
+  max-width: 750px;
 }
 .gallery-text {
   color: #e5e7eb;
@@ -115,7 +115,8 @@ nav a:hover{
   flex-direction: column;
   align-items:flex-start;
   padding-bottom: 40px;
-  max-width: 49%;
+  min-width: auto;
+  max-width: 50%;
 } 
 .gallery-text h3,
 .gallery-text p {
