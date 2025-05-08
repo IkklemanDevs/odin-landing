@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+   
 }
 
 #content-container {
@@ -163,7 +164,7 @@ nav a:hover{
 }
 .showcase ul img{
   border: 3px solid #3882F6;
-  border-radius: 3px;
+  border-radius: 30px;
   width: 250px;
   height: 250px;
 }
@@ -232,6 +233,23 @@ justify-content: center;
   background-color: #F9FAF8;
   color: #3882F6;
   border: #3882F6 3px solid;
+}
+
+#header-register {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+#header-register:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+  
 }
 
 /* FOOTER STYLE */
