@@ -5,10 +5,6 @@
   box-sizing: border-box;  
 }
 
-div {
-  border: 1px solid black;
-}
-
 #content-container {
 padding-left: 96px;
 padding-right: 96px;
@@ -95,23 +91,23 @@ nav a:hover{
 .gallery {
   display: flex;
   flex-wrap: wrap; 
-
   align-items: flex-start;
+  justify-content: center;
   max-width: 100%;
   padding: 0;
-  min-height: 300px;
+  
 }
 .gallery-asset {
   display: flex;
-  align-content: flex-start;
+  align-content: center;
   justify-content: flex-end;
   flex-direction: column;
   max-width: 100%;
   max-height: 100%;
 } 
 .gallery img {
-  max-height: 300px;
-  max-width: 750px;
+  height: 300px;
+  max-width: 600px;
 }
 .gallery-text {
   color: #e5e7eb;
@@ -119,7 +115,7 @@ nav a:hover{
   flex-direction: column;
   align-items:flex-start;
   padding-bottom: 40px;
-  max-width: 50%;
+  max-width: 49%;
 } 
 .gallery-text h3,
 .gallery-text p {
